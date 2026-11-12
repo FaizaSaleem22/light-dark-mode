@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snp Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<body>
+    <header>
+        <nav>
+            <img src="images/logoo.webp" alt="logo" class="logo">
+            <img src="images/group1.webp" alt="" class="logo2">
+            <ul>
+                <li><a href="">Home</a></li>  &emsp; &emsp;
+                <li><a href="">About Us</a></li> &emsp; &emsp;
+                <li><a href="">Publications</a></li>&emsp; &emsp;
+                <li><a href="" class="franchise">Get a Franchise</a></li>&emsp;
+                <li><a href="" class="order">Order Online &nbsp;<i class="fa fa-solid fa-arrow-right arrow"></i></a></li>
+                <li><i class="fa-solid fa-sun sun" onclick="lightMode()"></i></li>
+                <li class="moondiv"><i class="fa-solid fa-moon moon" onclick="darkMode()"></i></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <img class="cover" src="images/cover.webp" alt="">
+    <div class="group">
+        <h5>Welcome to <span>Salt'n Pepper</span> <br> Restaurants! Our Brands</h5> <br>
+        <p>Please click our brands below for further information, reservations or to order online!</p> <br>
+    </div>
+    
+    <table class="group1">
+        <tr> 
+            <td width="100"></td>
+            <td width="100"></td>
+            <td width="100"></td>
+            <td width="80"></td>
+            <td><img src="images/group1.webp" alt="" class="white"> <br> <br><button >Order Now</button></td>
+            <td><img src="images/group2.webp" alt="" class="white"> <br><br> <button>Order Now</button></td>
+            <td><img src="images/group3.webp" alt="" class="white"> <br><br> <button>Order Now</button></td>
+            <td><img src="images/group4.webp" alt="" class="white"> <br> <br><button>Order Now</button></td>
+        </tr>
+    </table>
+    <table class="group2" >
+        <tr class="center">
+            <td width="500"></td>
+            <td colspan="2">
+            <h5 class="butler"><span>Salt'n Pepper</span> <br >Restaurant Franchises</h5> <br>
+            <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p> <br>
+            </td>
+            <td rowspan="2"><img src="images/bg.webp" alt="" ></td>
+        </tr>
+        <tr >
+            <td></td>
+            <td><img src="images/franchise.webp" alt="" ></td>
+            <td>
+            <p class="red">&emsp;FAISALABAD</p>
+            <h5 class="small"> &ensp;<span class="small">Salt'n Pepper</span> Restaurant</h5><br>
+            <p>&emsp; <i class="fa fa-map-marker-alt"></i> 4-Kohinoor City, Faisalabad</p><br>
+            <p>&emsp;&ensp;<i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+            &emsp;<button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow"></i></button>
+            </td>
+        <tr class="hidden">
+            <td>dfgdfhgudrf789shcsu9hf9br
+                erfhsduifnhsduifh <br>ffreuudhdjhf <br> gweyfgsduyfhn
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>    
+        
+        <tr>
+            <td></td>
+            <td>
+            <p class="red">Bahawalpur</p>
+            <h5 class="small"><span class="small">Salt'n Pepper</span> Restaurant</h5><br>
+            <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+            <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+            <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow"></i></button>
+            </td>
+            <td><img src="images/franchise2.webp" alt=""></td>
+            
+        </tr>
+    </table>
+    <table class="group3" cellspacing="30" >
+        <tr>
+            <td></td>
+            <td colspan="3"><h5><span>Salt'n Pepper</span> <br><span class="butler">Express Franchises</span></h5> <br></td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td width="200"></td>
+            <td> <img src="images/express1.webp" alt="" width="400" height="250"></td>&emsp;
+            <td><img src="images/express2.webp" alt="" width="400" height="250"></td>&emsp;&emsp;&emsp;&emsp;
+            <td><img src="images/express3.webp" alt="" width="400" height="250"></td>
+            <td width="200"></td>
+        </tr>
+        <tr >
+            <td></td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td width="200"></td>
+            <td> <img src="images/express4.webp" alt="" width="400" height="250"></td>&emsp;
+            <td><img src="images/express5.webp" alt="" width="400" height="250"></td>&emsp;&emsp;&emsp;&emsp;
+            <td><img src="images/express6.webp" alt="" width="400" height="250"></td>
+            <td width="200"></td>
+        </tr>
+        <tr >
+            <td></td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td width="200"></td>
+            <td> <img src="images/express7.webp" alt="" width="400" height="250"></td>&emsp;
+            <td><img src="images/express8.webp" alt="" width="400" height="250"></td>&emsp;&emsp;&emsp;&emsp;
+            <td><img src="images/express9.webp" alt="" width="400" height="250"></td>
+            <td width="200"></td>
+        </tr>
+        <tr >
+            <td></td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td width="200"></td>
+            <td> </td>&emsp;
+            <td><img src="images/express10.webp" alt="" width="400" height="250"></td>&emsp;&emsp;&emsp;&emsp;
+            <td></td>
+            <td width="200"></td>
+        </tr>
+        <tr >
+            <td></td>
+            <td></td>
+            <td>
+                <p class="red">Bahawalpur</p>
+                <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+                <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+                <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+                <button>Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="tilt"></i></button>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <div class="village">
+        <h5><span>Salt'n Pepper</span> <br><span class="butler">Village Franchise</span></h5> <br>
+    </div>
+    <div class="villagediv" >
+          <img src="images/village.webp" alt="" width="950" class="villageimg" >
+          <div class="villagetext">
+            <p class="red">Bahawalpur</p>
+            <h5 class="small tiny"><span class="small tiny">Salt'n Pepper</span> Restaurant</h5><br>
+            <p> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>  D.C Chowk, opposite Commissioner House, Bahawalpur</p><br>
+            <p> <i class="fa fa-phone rotate" aria-hidden="true"></i>  Ph:041-23486969</p><br><br>
+            <button id="green">Get Directions &emsp;<i class=" fa fa-solid fa-arrow-right arrow" id="greena"></i></button>
+          </div>
+    </div>
+    <table class="group4" cellspacing="30" >
+        <tr>
+            <td></td>
+            <td colspan="3"><h5><span>Salt'n Pepper</span> <br><span class="butler">Express Franchises </span> (Opening Soon)</h5> <br></td>
+            <td></td>
+        </tr>
+    
+        <tr class="whitet">
+            <td class="black"></td>
+            <td width="400" height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td  width="400" height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td  width="400" height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td  class="black"></td>
+        </tr>
+        <tr class="whitet">
+            <td  class="black"></td>
+            <td height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td  class="black"></td>
+        </tr>
+        <tr class="whitet">
+            <td   class="black"></td>
+            <td class="black"> 
+                
+            </td>&emsp;
+            <td height="250"> 
+                <img src="images/soon.webp" alt=""> <br>
+                <small class="red">Opening Soon</small> <br>
+                <span class="simple">Salt'n Pepper </span> <span class="serif">Express</span> <br>
+                <span class="serif">Blue World City</span><br>
+                <span class="serif">Rawalpindi</span>
+            </td>&emsp;
+            <td class="black"> 
+                
+            </td>&emsp;
+            <td  class="black"></td>
+        </tr>
+    <table class="group5" >
+        <tr>
+            <td></td>
+            <td>
+                <img src="images/logoo.webp" alt="" width="165">
+                <img src="images/group1.webp" alt="" class="logo3">
+            </td>
+            <td>
+                <h6>Site Links</h6>
+                <a href="">Home</a>
+            </td>
+            <td>
+                <h6>Contact Us</h6>
+                <h6>Head office Address</h6>
+            </td>
+            <td>
+                <h6>Follow Us</h6>
+                
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <img src="images/footer.webp" alt="">
+            </td>
+            <td>
+                <p>The Salt’n Pepper Restaurants are an example of <br> gracious dinning, outstanding service, extraordinary <br>classic and contemporary cuisine. The restaurants <br> have become the ultimate dinning destinations in <br> Lahore. From family occasions to business dinner <br> and moments of the heart, this place is where <br> unforgettable memories are made.</p> <br>
+                <a href="">Terms ans conditions</a> &emsp;
+                <a href="">Privacy policy</a>
+
+            </td>
+            <td>
+                <a href="">About Us</a><br><br>
+                <a href="">Publications</a><br><br>
+                <a href="">Get a Franchise</a><br><br>
+                <a href="">Feedback</a><br><br>
+                <a href="">Contact Us</a>
+            </td>
+            <td>
+                <br><p>Foodconsults (Pvt) Ltd <br> 23-Usman Block, New</p><br><br>
+                <h6>Head office number</h6><br>
+                <a href="">+021 339685950</a> <br>
+                <h6>Email Address</h6><br><br>
+                <a href="">snpfood@brain.com</a>
+                
+            <td>
+                <a href=""><i class="fab fa-facebook-f" aria-hidden="true" id="red"></i></a>&ensp;
+                <a href=""><i class="fab fa-instagram" aria-hidden="true" id="red"></i></a>&ensp;
+                <a href=""><i class="fab fa-twitter" aria-hidden="true" id="red"></i></a> <br><br><br>
+                <a href=""><img src="images/app.webp" alt=""></a> <br> <br>
+                <a href=""><img src="images/googleplay.webp" alt=""></a>
+
+            </td>
+        </tr>
+        <tr>
+            <td height="180"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <div>
+        <br><small class="w">© 2026 Snp Main</small>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small class="w">Powered by tossdown.com</small>
+    </div>
+    <script src="app.js"></script>
+</body>      
+</html>

@@ -1,0 +1,294 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+   
+ }
+ body {
+    background-color: #000000;
+ }
+ul {
+    display: inline-block;
+    padding-left: 400px;
+}
+li {
+    
+    display: inline-block;
+    font-weight: 600;
+    font-size: larger;
+}
+header {
+    background-color: #000000;
+    
+    width: 100%;
+}
+.logo {
+    width: 165px;
+    vertical-align: middle;
+    padding: 10px 10px 10px 300px;
+}
+.logo2 {
+    display: none;
+    width: 165px;
+    vertical-align: middle;
+    padding: 10px 10px 10px 300px;
+}
+.logo3 {
+    display: none;
+    width: 165px;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+}
+a {
+     color: white;
+     text-decoration: none;
+}
+.franchise {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 15px;
+    font-weight: 400;
+    font-size: medium;
+}
+.order {
+    border: 1px solid #ED1C24;
+    border-radius: 40px;
+    padding: 10px 15px 15px 15px;
+    font-weight: 400;
+    font-size: medium;
+    background-color: #ED1C24;
+}
+.arrow {
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    color: #ED1C24;
+    padding: 3px;
+    vertical-align: middle;
+}
+.cover {
+   
+    max-width: 100%;
+    height: auto;
+    display: block;
+   
+    
+}
+.group {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 50px 0px 30px 0px;
+    font-weight: 100;
+    
+     
+    
+}
+.white {
+    background-color: white;
+    margin-right: 20px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    
+}
+    
+h5 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.group1 { 
+    background-color: #000000;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    padding-bottom: 40px;
+    
+}
+button {
+    background-color: #0F0F0F;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid white;
+
+}
+.group2 {
+   
+   background-color: #0F0F0F;
+   color: white;
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 40px; 
+   
+}
+.center {
+     text-align: center;
+
+}
+.hidden {
+    color: #0F0F0F;
+}
+.red {
+    color: red;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'futurak';
+    src: url(https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf) format('truetype'), url(https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf) format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+span {
+    font-family: 'futurak';
+    font-size: 55px;
+    
+}
+.rotate {
+    /* transform: rotate(100deg); */
+    z-index: -1;
+}
+.small {
+    font-size: 40px;
+}
+@font-face {
+    font-family: 'butler';
+    src: url(https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf) format('opentype'), url(https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.butler {
+    font-family: 'butler';
+}
+.group3 {
+    text-align: center;
+    background-color: #0F0F0F;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}
+button:hover {
+    cursor: pointer;
+}
+.tiny {
+    font-size: 30px;
+}
+.village {
+    background-color: #0F0F0F;
+    color: white;
+    text-align: center;
+    
+}
+.villageimg {
+    float: left;
+}
+.villagetext {
+    float: inline-start;
+    
+    padding-left:40px;
+    color: white;
+    padding-top: 70px;
+}
+    
+.villagediv {
+    background-color: #0F0F0F;
+    display: inline-block;
+    width: 100%;
+}
+#green {
+    background-color: #28A746;
+    border: 1px solid #28A746;
+}
+#greena {
+    color: #28A746;
+}
+#green:hover {
+    background-color: #0F0F0F;
+    border: 1px solid #28A746;
+}
+.simple {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+.group4 {
+    color: white;
+    text-align: center;
+    margin-left: 230px;
+    
+}
+.whitet {
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    
+}
+.black {
+    background-color: #000000;
+}
+.group5 {
+    background-color: #0F0F0F;
+    width: 100%;
+    color: white;
+    
+}
+h6 {
+    font-size: 15px;
+}
+#red {
+    border: 8px solid #ED1C24;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ED1C24;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 15px;
+}
+.w {
+    color: white;
+    padding: 40px 200px 20px 300px;
+    font-size: 15px;
+}
+#tilt {
+    transform: rotate(-50deg);
+}
+.sun{
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    color: #ED1C24;
+    padding: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.light {
+    background-color: white;
+    color: #000000;
+}
+.moon{
+    border: 1px solid black;
+    border-radius: 50%;
+    background: black;
+    color: #ED1C24;
+    padding: 5px;
+    vertical-align: middle;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.moondiv{
+    display: none;
+}
+
+   
